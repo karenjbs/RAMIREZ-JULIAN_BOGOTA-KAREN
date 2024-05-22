@@ -1,0 +1,37 @@
+[2024-05-21 20:01:06] [ ERROR] [OdontologoServiceTest:31] Error de Sintaxis en sentencia SQL "\000d\000aCREATE TABLE ODONTOLOGOS\000d\000a(\000d\000a    ID       INT AUTO_INCREMENT PRIMARY KEY,\000d\000a    NOMBRE   VARCHAR(50)   NOT NULL,\000d\000a    APELLIDO VARCHAR(50)   NOT NULL,\000d\000a    MATRICULA  VARCHAR(50)   NOT NULL,\000d\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000d\000aCREATE TABLE ODONTOLOGOS\000d\000a(\000d\000a    ID       INT AUTO_INCREMENT PRIMARY KEY,\000d\000a    NOMBRE   VARCHAR(50)   NOT NULL,\000d\000a    APELLIDO VARCHAR(50)   NOT NULL,\000d\000a    MATRICULA  VARCHAR(50)   NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+CREATE TABLE ODONTOLOGOS
+(
+    ID       INT AUTO_INCREMENT PRIMARY KEY,
+    NOMBRE   VARCHAR(50)   NOT NULL,
+    APELLIDO VARCHAR(50)   NOT NULL,
+    MATRICULA  VARCHAR(50)   NOT NULL,
+) [42001-224]
+[2024-05-21 20:05:25] [ ERROR] [OdontologoServiceTest:31] Error de Sintaxis en sentencia SQL "\000d\000aCREATE TABLE ODONTOLOGOS\000d\000a(\000d\000a    ID        INT AUTO_INCREMENT PRIMARY KEY,\000d\000a    NOMBRE    VARCHAR(50) NOT NULL,\000d\000a    APELLIDO  VARCHAR(50) NOT NULL,\000d\000a    MATRICULA VARCHAR(50) NOT NULL,\000d\000a[*])"; se esperaba "identifier"
+Syntax error in SQL statement "\000d\000aCREATE TABLE ODONTOLOGOS\000d\000a(\000d\000a    ID        INT AUTO_INCREMENT PRIMARY KEY,\000d\000a    NOMBRE    VARCHAR(50) NOT NULL,\000d\000a    APELLIDO  VARCHAR(50) NOT NULL,\000d\000a    MATRICULA VARCHAR(50) NOT NULL,\000d\000a[*])"; expected "identifier"; SQL statement:
+
+CREATE TABLE ODONTOLOGOS
+(
+    ID        INT AUTO_INCREMENT PRIMARY KEY,
+    NOMBRE    VARCHAR(50) NOT NULL,
+    APELLIDO  VARCHAR(50) NOT NULL,
+    MATRICULA VARCHAR(50) NOT NULL,
+) [42001-224]
+[2024-05-21 20:12:23] [ INFO ] [OdontologoDaoH2:83] Odontologos devueltos: Odontologo{id=1, nombre='HOMERO', apellido='SIMPSON', matricula='1234'}
+[2024-05-21 20:12:23] [ INFO ] [OdontologoDaoH2:83] Odontologos devueltos: Odontologo{id=2, nombre='MAGGIE', apellido='SIMPSON', matricula='4567'}
+[2024-05-21 20:29:41] [ INFO ] [OdontologoDaoMemoria:20] odontologo guardado: Odontologo{id=1, nombre='BART', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:33:55] [ INFO ] [OdontologoDaoMemoria:20] odontologo guardado: Odontologo{id=1, nombre='BART', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:33:55] [ INFO ] [OdontologoDaoMemoria:20] odontologo guardado: Odontologo{id=2, nombre='LISSA', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:33:55] [ INFO ] [OdontologoDaoMemoria:27] Odontologo en lista: Odontologo{id=1, nombre='BART', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:33:55] [ INFO ] [OdontologoDaoMemoria:27] Odontologo en lista: Odontologo{id=2, nombre='LISSA', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:34:57] [ INFO ] [OdontologoDaoMemoria:20] odontologo guardado: Odontologo{id=1, nombre='BART', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:34:57] [ INFO ] [OdontologoDaoMemoria:20] odontologo guardado: Odontologo{id=2, nombre='LISSA', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:34:57] [ INFO ] [OdontologoDaoMemoria:27] Odontologo en lista: Odontologo{id=1, nombre='BART', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:34:57] [ INFO ] [OdontologoDaoMemoria:27] Odontologo en lista: Odontologo{id=2, nombre='LISSA', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:35:01] [ INFO ] [OdontologoDaoMemoria:20] odontologo guardado: Odontologo{id=1, nombre='BART', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:35:01] [ INFO ] [OdontologoDaoMemoria:20] odontologo guardado: Odontologo{id=2, nombre='LISSA', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:35:01] [ INFO ] [OdontologoDaoMemoria:27] Odontologo en lista: Odontologo{id=1, nombre='BART', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:35:01] [ INFO ] [OdontologoDaoMemoria:27] Odontologo en lista: Odontologo{id=2, nombre='LISSA', apellido='SIMPSON', matricula='456464'}
+[2024-05-21 20:35:23] [ INFO ] [OdontologoDaoH2:83] Odontologos devueltos: Odontologo{id=1, nombre='HOMERO', apellido='SIMPSON', matricula='1234'}
+[2024-05-21 20:35:23] [ INFO ] [OdontologoDaoH2:83] Odontologos devueltos: Odontologo{id=2, nombre='MAGGIE', apellido='SIMPSON', matricula='4567'}
